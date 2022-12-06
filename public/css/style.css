@@ -133,6 +133,9 @@ section .btn button:nth-child(2) {
   margin: 1%;
 }
 
+section2 {
+  margin-bottom: 2%;
+}
 section2 .titrerond {
   padding: 5%;
 }
@@ -198,6 +201,35 @@ section2 .rectangle .rondtxt2 .texte2 h1 {
 section2 .rectangle .rondtxt2 .texte2 span {
   line-height: 25px;
   color: #9f9a9f;
+}
+
+section3 .titre {
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0.6) 0%, rgba(70, 55, 55, 0.6) 100%), url("../img/banner.jpg");
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+section3 .titre h1 {
+  font-size: 6vh;
+  color: white;
+}
+section3 .titre h2 {
+  color: #aaa08b;
+  margin: 0;
+  padding: 0;
+}
+section3 .titre button {
+  background-color: #f22953;
+  border-radius: 3px;
+  border: none;
+  width: 180px;
+  height: 50px;
+  color: white;
+  margin-top: 3%;
 }
 
 /*# sourceMappingURL=style.css.map */

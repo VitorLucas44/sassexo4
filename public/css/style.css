@@ -49,4 +49,88 @@ nav .titre button {
   margin-top: 3%;
 }
 
+header {
+  width: 100%;
+  margin: auto;
+}
+header .head {
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+}
+header .head .txt1 {
+  padding: 8%;
+  text-align: left;
+}
+header .head .txt1 span {
+  line-height: 25px;
+  color: #aeaaab;
+}
+header .head .txt2 {
+  padding: 5%;
+  color: #8f8d9e;
+  text-align: left;
+  line-height: 25px;
+}
+
+section {
+  background-color: #f7f7f6;
+}
+section .titre1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 3%;
+}
+section .titre1 h1 {
+  color: #484848;
+}
+section .titre1 h2 {
+  color: #cbcbcb;
+  font-size: 14px;
+}
+section .card {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+section .card .imgsec {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 1%;
+  background-color: #fefffe;
+}
+section .card .imgsec span {
+  padding: 5%;
+  color: #525253;
+}
+section .btn {
+  display: flex;
+  justify-content: center;
+}
+section .btn button:nth-child(1) {
+  background-color: #f22953;
+  border-radius: 3px;
+  border: none;
+  width: 180px;
+  height: 50px;
+  color: white;
+  margin-top: 4%;
+  margin: 1%;
+}
+section .btn button:nth-child(2) {
+  background-color: #323136;
+  border-radius: 3px;
+  border: none;
+  width: 180px;
+  height: 50px;
+  color: white;
+  margin-top: 4%;
+  margin: 1%;
+}
+
 /*# sourceMappingURL=style.css.map */

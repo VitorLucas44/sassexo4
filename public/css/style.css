@@ -6,6 +6,7 @@ body {
 
 nav {
   background: linear-gradient(90deg, rgba(2, 0, 36, 0.6) 0%, rgba(70, 55, 55, 0.6) 100%), url("../img/banner.jpg");
+  background-repeat: no-repeat;
   width: 100%;
   height: 80vh;
 }
@@ -59,7 +60,7 @@ header .head {
   justify-content: center;
 }
 header .head .txt1 {
-  padding: 8%;
+  padding: 5%;
   text-align: left;
 }
 header .head .txt1 span {
@@ -145,13 +146,13 @@ section2 .titrerond h2 {
 section2 .rectangle {
   display: flex;
   justify-content: center;
+  margin: auto;
 }
 section2 .rectangle .rondtxt {
   text-align: left;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 5%;
   text-align: right;
 }
 section2 .rectangle .rondtxt .rondimg img {
@@ -250,6 +251,8 @@ footer .copy {
   display: flex;
   justify-content: center;
   color: #aaa08b;
+  margin: 0;
+  padding: 0;
 }
 footer .copy .txtfoot {
   width: 10%;
@@ -271,13 +274,38 @@ footer .copy .txtfoot3 {
   .card {
     display: flex;
     flex-direction: column;
+    background-color: white;
   }
-  .card img {
+  .card .imgsec {
+    background-color: white;
+  }
+  .card .imgsec img {
     width: 70%;
+  }
+  .card .imgsec img span {
+    background-color: white;
+  }
+  .titre1 {
+    background-color: white;
   }
   .rectangle {
     display: flex;
     flex-direction: column;
+    text-align: center;
+  }
+  .rectangle .rondtxt {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .rectangle .rondtxt .texte {
+    text-align: center;
+  }
+  .rectangle .rondtxt2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .rectangle .rondtxt2 .texte2 {
+    text-align: center;
   }
   .head {
     display: flex;
@@ -286,32 +314,48 @@ footer .copy .txtfoot3 {
   .navigation {
     display: flex;
     flex-wrap: wrap;
+    margin: 3%;
+  }
+  .navigation .site {
+    margin: 3%;
   }
   .navigation .elem {
     margin-top: 10%;
+    margin: 3%;
   }
-}
-section3 .titre h1 {
-  font-size: 3vh;
-}
-section3 .titre h2 {
-  font-size: 2vh;
-}
-section3 .titre button {
-  width: 30%;
-  height: 15%;
-}
-
-footer .icon {
-  font-size: 5vh;
-  margin-bottom: 20px;
-}
-footer .copy {
-  margin: auto;
-  padding: auto;
-}
-footer .copy .txtfoot {
-  padding-right: 30px;
+  section3 .titre h1 {
+    font-size: 3vh;
+  }
+  section3 .titre h2 {
+    font-size: 2vh;
+  }
+  section3 .titre button {
+    width: 30%;
+    height: 15%;
+  }
+  footer .icon {
+    font-size: 5vh;
+    margin-bottom: 20px;
+  }
+  footer .copy {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+  footer .copy .txtfoot {
+    border: none;
+  }
+  footer .copy .txtfoot3 {
+    border: none;
+  }
+  footer .copy .txtfoot2 {
+    border: none;
+    margin: 3%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
